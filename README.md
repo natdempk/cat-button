@@ -32,7 +32,7 @@ pip install -r requirements.txt
 Then to create the `.zip` deployment package from the root of this repo run:
 - `./package.fish`
 
-Then upload the deployment package `cat_button.zip` to an AWS lambda function.
+Then upload the deployment package `cat_button.zip` to an AWS lambda function and create a `SLACK_API_TOKEN` environment variable with a token like `xoxp-xxxx-xxxx-xxxx-xxxx`.
 
 **Finally to switch back to a generally working Python environment:**
 ```
