@@ -15,6 +15,8 @@ To switch (from [Stack Overflow](https://stackoverflow.com/questions/51726203/in
 brew switch python 3.6.5_1
 ```
 
+**⚠️ Note switching this breaks almost everything else installed by brew, don't forget to switch back!**
+
 Create a virtualenv if necessary with
 ```
 bash
