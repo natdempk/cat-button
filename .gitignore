@@ -1,3 +1,8 @@
+# oneoff stuff
+cat_button_venv/
+cat_button.zip
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
