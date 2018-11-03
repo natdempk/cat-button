@@ -9,7 +9,13 @@ All of this is terrible. We need to build a deployment package to get a usable e
 
 The lambda env needs Python 3.6 to work, but the latest version of Python 3 is 3.7 which is what brew provides.
 
-To switch Python environments (from [Stack Overflow](https://stackoverflow.com/questions/51726203/installing-python3-6-alongside-python3-7-on-mac)):
+To switch Python environments (from [Stack Overflow](https://stackoverflow.com/questions/51726203/installing-python3-6-alongside-python3-7-on-mac)) we need to run the following once to install Python 3.6.5:
+```
+brew unlink python
+brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb
+```
+
+Then to actually switch our Python version for local development:
 ```
 brew switch python 3.6.5_1
 ```
