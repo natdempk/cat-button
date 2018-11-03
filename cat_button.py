@@ -17,7 +17,7 @@ def handler(event, context):
 
     response = sc.api_call(
         "chat.postMessage",
-        channel=TEST_CHANNEL,
+        channel=HOLLAND_CHANNEL,
         text=f"{milo} {luna} The cats have been fed!",
         as_user=False,
         username="CatBot"
