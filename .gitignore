@@ -2,6 +2,7 @@
 cat_button_venv/
 cat_button.zip
 *.swp
+.DS_Store
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
